@@ -19,7 +19,7 @@
     "uuid": "^3.3.3"
   },
   "scripts": {
-    "heroku-prebuild": "npm install npm run build",
+    "heroku-prebuild": "npm run build",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
