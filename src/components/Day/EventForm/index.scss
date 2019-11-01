@@ -1,0 +1,39 @@
+form {
+  input,
+  .rc-time-picker-input {
+    font-family: inherit;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 3px 5px;
+    margin: 0;
+    outline: 0;
+    color: #000;
+    &::placeholder {
+      color: darkgray;
+    }
+  }
+
+
+  .btn-submit,
+  .btn-cancel {
+    font-family: inherit;
+    font-size: 13px;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid black;
+  }
+
+  .btn-cancel {
+    margin-left: 5px;
+  }
+  .actions{
+    text-align: center;
+  }
+}
+
+.rc-time-picker-panel {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
