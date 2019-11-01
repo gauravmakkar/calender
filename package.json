@@ -20,7 +20,8 @@
   },
   "scripts": {
     "heroku-prebuild": "npm install npm run build",
-    "start": "react-scripts start",
+    "heroku-postbuild": "npm install -g serve",
+    "start": "serve -s build",
     "start-all": "npm-run-all -p watch-css start-js",
     "build": "react-scripts build",
     "build-all": "npm-run-all build-css build-js",
